@@ -5,6 +5,9 @@ env:
 on:
   workflow_dispatch:
 
+permissions:
+    packages: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -33,5 +36,5 @@ jobs:
           for i in $(find ${{ env.NUGET_DIR }} -type f -name "*.nupkg");
           do
            echo "File: ${i} \n";
-           dotnet nuget push $i --source "https://nuget.pkg.github.com/snakex64/index.json" --skip-duplicate
+           dotnet nuget push $i --api-key ${{ github.token }} --source "https://nuget.pkg.github.com/snakex64/index.json" --skip-duplicate
           done
