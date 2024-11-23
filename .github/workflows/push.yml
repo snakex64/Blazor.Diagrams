@@ -11,6 +11,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
   
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 9.0.x
+
       - name: Pack Blazor.Diagrams.Core
         working-directory: src/Blazor.Diagrams.Core
         run: 'dotnet pack -p:GeneratePackageOnBuild=false --configuration Release --output ${{ env.NUGET_DIR }}'
