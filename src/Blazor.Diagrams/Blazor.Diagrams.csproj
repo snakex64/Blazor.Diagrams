@@ -4,9 +4,9 @@
     <Nullable>enable</Nullable>
     <Authors>snakex64</Authors>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <AssemblyVersion>99.0.2</AssemblyVersion>
-    <FileVersion>99.0.2</FileVersion>
-    <Version>99.0.2</Version>
+    <AssemblyVersion>99.0.3</AssemblyVersion>
+    <FileVersion>99.0.3</FileVersion>
+    <Version>99.0.3</Version>
     <RepositoryUrl>https://github.com/snakex64/Blazor.Diagrams</RepositoryUrl>
     <Description>Fork of existing https://github.com/Blazor-Diagrams/Blazor.Diagrams Library, used for NodeDev.</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -24,7 +24,7 @@
 
 
   <ItemGroup>
-    <ProjectReference Include="..\Blazor.Diagrams.Core\Blazor.Diagrams.Core.csproj" PrivateAssets="all" />
+    <ProjectReference Include="..\Blazor.Diagrams.Core\Blazor.Diagrams.Core.csproj" />
   </ItemGroup>
 
   <ItemGroup>
