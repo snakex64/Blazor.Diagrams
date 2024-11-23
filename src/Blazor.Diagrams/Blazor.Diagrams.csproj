@@ -2,18 +2,17 @@
 
   <PropertyGroup>
     <Nullable>enable</Nullable>
-    <Authors>zHaytam</Authors>
+    <Authors>snakex64</Authors>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <AssemblyVersion>3.0.2</AssemblyVersion>
-    <FileVersion>3.0.2</FileVersion>
-    <RepositoryUrl>https://github.com/Blazor-Diagrams/Blazor.Diagrams</RepositoryUrl>
-    <Description>A fully customizable and extensible all-purpose diagrams library for Blazor</Description>
-    <Version>3.0.2</Version>
+    <AssemblyVersion>99.0.2</AssemblyVersion>
+    <FileVersion>99.0.2</FileVersion>
+    <Version>99.0.2</Version>
+    <RepositoryUrl>https://github.com/snakex64/Blazor.Diagrams</RepositoryUrl>
+    <Description>Fork of existing https://github.com/Blazor-Diagrams/Blazor.Diagrams Library, used for NodeDev.</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageTags>blazor diagrams diagramming svg drag</PackageTags>
-    <PackageId>Z.Blazor.Diagrams</PackageId>
-    <PackageProjectUrl>https://blazor-diagrams.zhaytam.com/</PackageProjectUrl>
-    <Product>Z.Blazor.Diagrams</Product>
+    <PackageId>Snakex64.Z.Blazor.Diagrams</PackageId>
+    <Product>Snakex64.Z.Blazor.Diagrams</Product>
     <PackageIcon>ZBD.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
@@ -25,7 +24,7 @@
 
 
   <ItemGroup>
-    <ProjectReference Include="..\Blazor.Diagrams.Core\Blazor.Diagrams.Core.csproj" />
+    <ProjectReference Include="..\Blazor.Diagrams.Core\Blazor.Diagrams.Core.csproj" PrivateAssets="all" />
   </ItemGroup>
 
   <ItemGroup>

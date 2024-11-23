@@ -1,3 +1,8 @@
+# DISCLAIMER
+This is a fork of https://github.com/Blazor-Diagrams/Blazor.Diagrams 
+I forked this repository to add some features that I needed for https://github.com/VisualNodeDev/NodeDev
+The "up-to-date" branch is the branch that I publish to my own nuget.
+
 # Blazor.Diagrams
 
 ![](ZBD.png)

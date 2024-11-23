@@ -3,15 +3,15 @@
   <PropertyGroup>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Authors>zHaytam</Authors>
-    <Description>Algorithms for Z.Blazor.Diagrams</Description>
-    <AssemblyVersion>3.0.2</AssemblyVersion>
-    <FileVersion>3.0.2</FileVersion>
-    <RepositoryUrl>https://github.com/zHaytam/Blazor.Diagrams</RepositoryUrl>
-    <Version>3.0.2</Version>
-    <PackageId>Z.Blazor.Diagrams.Algorithms</PackageId>
+    <Authors>snakex64</Authors>
+    <Description>Fork of existing https://github.com/Blazor-Diagrams/Blazor.Diagrams Library, used for NodeDev</Description>
+    <AssemblyVersion>99.0.2</AssemblyVersion>
+    <FileVersion>99.0.2</FileVersion>
+    <RepositoryUrl>https://github.com/snakex64/Blazor.Diagrams</RepositoryUrl>
+    <Version>99.0.2</Version>
+    <PackageId>snakex64.Z.Blazor.Diagrams.Algorithms</PackageId>
     <PackageTags>blazor diagrams diagramming svg drag algorithms layouts</PackageTags>
-    <Product>Z.Blazor.Diagrams.Algorithms</Product>
+    <Product>snakex64.Z.Blazor.Diagrams.Algorithms</Product>
   </PropertyGroup>
 
   <ItemGroup>

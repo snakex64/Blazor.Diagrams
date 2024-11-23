@@ -28,5 +28,5 @@ jobs:
           for i in $(find ${{ env.NUGET_DIR }} -type f -name "*.nupkg");
           do
            echo "File: ${i} \n";
-           dotnet nuget push $i --api-key "${{ secrets.NUGET_API_KEY }}" --source https://api.nuget.org/v3/index.json --skip-duplicate
+           dotnet nuget push $i --source "https://nuget.pkg.github.com/snakex64/index.json" --skip-duplicate
           done
